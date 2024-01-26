@@ -1,0 +1,788 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    background-color: #1F2039;
+}
+
+/*GENERAL*/
+
+a {
+    color: #242424;
+    text-decoration: none;
+}
+
+
+h1 {
+    font-size: 3.5em;
+    color: #A5B4FC;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.lien-icone:hover {
+    opacity: 0.5;
+}
+
+/*A PROPOS*/
+
+p,
+li {
+    font-size: 1.1em;
+    color: #F9F8FF
+}
+
+ol {
+    color: #F9F8FF;
+    font-size: 1em;
+    font-family: 'Manrope', sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.lien-icone:hover {
+    opacity: 0.5;
+}
+
+/*NAV BARRE*/
+
+.container.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.containernav {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.barre {
+    background-color: white;
+    padding: 20px 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+/*MAIN*/
+
+.ecrivezmoi {
+    background: linear-gradient(#8E86B5, #ACAEED);
+    border-radius: 50px;
+    margin-top: 23px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+em {
+    color: #A5B4FC;
+    font-style: normal;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+
+.propassion {
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.ecrive {
+    color: white;
+}
+
+/*SECTION IMAGE*/
+
+.sectionimage {
+    background-color: white;
+    padding-bottom: 222px;
+    padding-top: 58px;
+    margin-top: 66px;
+}
+
+.gridimg {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 340px 340px 340px;
+    grid-template-rows: 325px 265px;
+    gap: 10px;
+}
+
+.mondernier {
+    color: black;
+    text-align: center;
+    margin-bottom: 62px;
+}
+
+.image {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    display: none;
+    color: white;
+}
+
+.image .titolo {
+    background-color: #0000008c;
+    display: none;
+}
+
+.image:hover .titolo {
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 326px;
+    height: 311px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image:hover .title {
+    display: block;
+}
+
+/*SECTION FORMULAIRE*/
+
+.parlons {
+    font-size: 29px;
+    margin-top: 32px;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 43px;
+}
+
+.fieldset {
+    border: none;
+}
+
+.blaze {
+    height: 36px;
+    border-radius: 11px;
+    outline: none;
+    border: transparent;
+    width: 343px;
+    margin-bottom: 30px;
+}
+
+.message {
+    outline: none;
+    border: transparent;
+    border-radius: 11px;
+    height: 68px;
+    width: 344px;
+}
+
+.label {
+    color: #A5B4FC;
+    margin-left: 4px;
+    margin-bottom: 10px;
+}
+
+.mess {
+    margin-top: -3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.benvoyer {
+    background-color: #A5B4FC;
+    border-radius: 16px;
+    height: 35px;
+    width: 161px;
+    margin-top: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 31px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.boutonenvoi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#boutondenvoi {
+    border-radius: 15px;
+    padding: 5px;
+    width: 168px;
+    height: 34px;
+    margin-top: 32px;
+    font-size: 15px;
+    color: white;
+    background: linear-gradient(#8E86B5, #ACAEED);
+    border: transparent;
+    margin-bottom: 32px;
+}
+
+/*A PROPOS*/
+
+.portfo {
+    background: linear-gradient(#8e86b5, #acaeed);
+    color: white;
+    border-radius: 50px;
+}
+
+.presentation {
+    margin: 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #A5B4FC;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    padding-bottom: 32px;
+    padding-right: 43px;
+}
+
+.portfo:hover {
+    background: linear-gradient(#696484, #8788BA);
+    text-decoration: none;
+}
+
+.tronche {
+    height: 230px;
+}
+
+.tenportrait {
+    display: grid;
+    grid-template-columns: 227px 227px 227px 227px 227px;
+    grid-template-rows: 230px;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 100px;
+}
+
+.global {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.propresentation {
+    padding-top: 33px;
+}
+
+.services {
+    color: white;
+    font-weight: normal;
+    margin-right: 433px;
+    margin-top: 15px;
+}
+
+.propul {
+    margin-top: 15px;
+    margin-right: 281px;
+}
+
+.portfo {
+    background: linear-gradient(#8e86b5, #acaeed);
+    color: white;
+    border-radius: 50px;
+    display: inline-block;
+    height: 60px;
+    width: 244px;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 66px;
+}
+
+.carrebleu {
+    z-index: 0;
+    background-color: #2a2abd59;
+    position: absolute;
+    height: 432px;
+    width: 657px;
+    bottom: 150px;
+    right: 309px;
+}
+
+.portraittt {
+    z-index: 1;
+}
+
+.nom {
+    display: flex;
+    flex-direction: column;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 78px;
+    align-items: center;
+    padding-left: 41px;
+}
+
+.lien-icone {
+    height: 45px;
+    width: 85px;
+}
+
+.logoreseaux {
+    margin-right: 34px;
+}
+
+#insta {
+    padding-left: 12px;
+}
+
+/*TARIFS*/
+
+.tarifs {
+    font-weight: normal;
+    position: relative;
+    left: -41px;
+}
+
+.contactezmy {
+    background-color: #A5B4FC;
+    width: 165px;
+    height: 36px;
+    text-align: center;
+    vertical-align: center;
+    vertical-align: center;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    position: relative;
+    left: 38px;
+}
+
+.titletarifs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.divblok1 {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    height: 297px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 346px;
+    margin-top: 62px;
+    margin-right: 76px;
+}
+
+.divblok2 {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    height: 297px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 346px;
+    margin-top: 62px;
+    margin-right: 76px;
+}
+
+.divblok3 {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    height: 297px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 346px;
+    margin-top: 62px;
+}
+
+.sectblok {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.titlebloktwo {
+    display: inline-block;
+    color: #A5B4FC;
+    font-size: 18px;
+    position: relative;
+    bottom: 20px;
+}
+
+.titoloblok {
+    display: inline-block;
+    color: #A5B4FC;
+    font-size: 23px;
+    position: relative;
+    top: -87px;
+}
+
+.textblok {
+    position: relative;
+    bottom: 57px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 132px;
+    margin-bottom: 130px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+td,
+th {
+    border: 1px solid white;
+    width: 315px;
+    padding: 41px;
+    color: white;
+}
+
+.mano {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.studio {
+    color: #A5B4FC;
+    font-size: 30px;
+    margin-bottom: 17px;
+}
+
+/*PORTFOLIO*/
+
+.testaportfo {
+    background-color: #1F2039;
+    height: 130px;
+}
+
+.testaporto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.titleportfo {
+    font-size: 35px;
+    color: #A5B4FC;
+    font-weight: bold;
+}
+
+.mainportfo {
+    background-color: white;
+}
+
+.imagedelindex {
+    display: grid;
+    grid-template-columns: 326px 326px 326px;
+    grid-template-rows: 311px;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 58px;
+}
+
+.paysage {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 6px;
+    padding-top: 55px
+}
+
+.image {
+    height: 311px;
+    width: 326px;
+    object-fit: cover;
+}
+
+.imageportrait {
+    display: grid;
+    grid-template-columns: 326px 326px 326px;
+    grid-template-rows: 311px;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.portrait {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 32px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.spacewhite {
+    background-color: white;
+}
+
+.portexte {
+    margin-top: 49px;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 300px) and (max-width: 1093px) {
+    .barre {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containernav {
+        display: flex;
+        align-items: center;
+        gap: 22px;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: end;
+        width: 500px;
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        color: #A5B4FC;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+
+    .propassion {
+        margin-top: 12px;
+        margin-left: 5px;
+        text-align: center
+    }
+
+    .gridimg {
+        display: flex;
+        grid-template-columns: 348px;
+        gap: 28px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sectionimage {
+        background-color: white;
+        padding-bottom: 29px;
+        padding-top: 58px;
+        margin-top: 66px;
+    }
+
+    .blaze {
+        height: 36px;
+        border-radius: 11px;
+        outline: none;
+        border: transparent;
+        width: 343px;
+        margin-bottom: 30px;
+    }
+
+    .message {
+        width: 343px;
+        height: 98px;
+        border-radius: 11px;
+    }
+
+    .label {
+        color: #A5B4FC;
+        margin-left: 4px;
+        margin-bottom: 10px;
+    }
+
+    .portexte {
+        margin-top: 17px;
+    }
+
+    .ecrivezmoi {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 323px;
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-top: 38px;
+    }
+
+    .tenportrait {
+        display: grid;
+        grid-template-columns: 177px 193px;
+        justify-content: center;
+        padding-left: 36px;
+        padding-right: 72px;
+        margin-top: 0;
+    }
+
+    .apropos {
+        margin-right: 0;
+        margin-bottom: 18px;
+    }
+
+    .presentation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 19px;
+        padding-right: 0;
+        padding-bottom: 0;
+        border-style: hidden;
+    }
+
+    .services {
+        margin-right: 0;
+    }
+
+    .propul {
+        margin-right: 0;
+    }
+
+    .portfol {
+        margin-top: -75px;
+    }
+
+    .sectblok {
+        display: flex;
+        margin-top: 80px;
+        flex-direction: column;
+        gap: 102px;
+    }
+
+    .divblok1 {
+        margin-top: 0;
+        margin-right: 0;
+        margin: 0 auto;
+    }
+
+    .titletarifs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divblok2 {
+        margin-top: 0;
+        margin-right: 0;
+        margin: 0 auto;
+    }
+
+    .divblok3 {
+        margin-top: 0;
+        margin-right: 0;
+        margin: 0 auto;
+    }
+
+    td {
+        padding: 10px;
+    }
+
+
+    th {
+        padding: 12px;
+    }
+
+    table {
+        border-collapse: collapse;
+        margin-top: 58px;
+        margin-bottom: 85px;
+    }
+
+    .carrebleu {
+        display: none;
+    }
+
+    .propresentation {
+        width: 296px;
+        text-align: center;
+        padding-top: 0;
+    }
+
+    .imagedelindex {
+        display: grid;
+        grid-template-columns: 326px;
+        grid-template-rows: 311px;
+        gap: 15px;
+        justify-content: center;
+        margin-top: 58px;
+    }
+
+    .imageportrait {
+        display: grid;
+        grid-template-columns: 326px;
+        grid-template-rows: 311px;
+        gap: 15px;
+        justify-content: center;
+        margin-top: 64px;
+    }
+
+    .portrait {
+        margin-left: 0;
+    }
+
+}
