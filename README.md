@@ -18,9 +18,15 @@ Ce site statique a été conçu dans le cadre d'une formation sur  <a href = 'ht
 
 Cela représente l'un de mes premiers projets de développement web, où chaque ligne de code constituait une nouvelle découverte. Ce parcours a été passionnant, m'offrant l'opportunité d'assimiler les fondamentaux du HTML et du CSS tout en exprimant ma créativité à travers la conception du site.
 
-## Comment Exécuter le Projet Localement
+### Comment Exécuter le Projet Localement :
 
-Clonez ce référentiel sur votre machine locale.
+Clonez ce référentiel sur votre machine locale. Utilisez la commande suivante dans votre terminal :
+
+```bash
+git clone https://github.com/votre-nom-utilisateur/Robbie-Lens-OpenClassRooms.git
+cd Robbie-Lens-OpenClassRooms
+```
+ ## Captures d'écran
  
 ![Scren1](/screenshoot/screen1.png)
 ![Scren2](/screenshoot/screen2.png)
